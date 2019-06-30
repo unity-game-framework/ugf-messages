@@ -1,0 +1,17 @@
+{
+    "name": "UGF.Messages.Runtime.Tests",
+    "references": [
+        "GUID:4b2e18ee0830ee54ba83b65cb3d075d5"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
