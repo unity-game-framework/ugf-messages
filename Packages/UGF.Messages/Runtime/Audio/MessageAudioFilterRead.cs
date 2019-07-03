@@ -1,5 +1,8 @@
+using System;
+
 namespace UGF.Messages.Runtime.Audio
 {
+    [Serializable]
     public class MessageAudioFilterRead : Message, IMessageAudioFilterRead
     {
         public event MessageAudioFilterReadHandler FilterReadInvoked;

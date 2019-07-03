@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 
 namespace UGF.Messages.Runtime.Physics2D
 {
+    [Serializable]
     public class MessageJointBreak2D : Message, IMessageJointBreak2D
     {
         public event MessageJointBreak2DHandler JointBreakInvoked;

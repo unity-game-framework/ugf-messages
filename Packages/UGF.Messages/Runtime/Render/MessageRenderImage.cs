@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 
 namespace UGF.Messages.Runtime.Render
 {
+    [Serializable]
     public class MessageRenderImage : Message, IMessageRenderImage
     {
         public event MessageRenderImageHandler RenderImageInvoked;

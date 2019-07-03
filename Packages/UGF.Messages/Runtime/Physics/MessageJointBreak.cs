@@ -1,5 +1,8 @@
+using System;
+
 namespace UGF.Messages.Runtime.Physics
 {
+    [Serializable]
     public class MessageJointBreak : Message, IMessageJointBreak
     {
         public event MessageJointBreakHandler JointBreakInvoked;

@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 
 namespace UGF.Messages.Runtime.Particle
 {
+    [Serializable]
     public class MessageParticleCollision : Message, IMessageParticleCollision
     {
         public event MessageParticleCollisionHandler CollisionInvoked;

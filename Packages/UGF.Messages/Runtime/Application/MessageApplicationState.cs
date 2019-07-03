@@ -1,5 +1,8 @@
+using System;
+
 namespace UGF.Messages.Runtime.Application
 {
+    [Serializable]
     public class MessageApplicationState : Message, IMessageApplicationState
     {
         public event MessageApplicationStateHandler StateInvoked;
