@@ -10,6 +10,8 @@ namespace UGF.Messages.Runtime.Physics
 
         public void Invoke(Collider collider)
         {
+            if (collider == null) throw new ArgumentNullException(nameof(collider));
+
             Invoke();
 
             TriggerInvoked?.Invoke(collider);

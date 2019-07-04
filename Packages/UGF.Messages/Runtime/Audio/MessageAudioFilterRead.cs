@@ -9,6 +9,8 @@ namespace UGF.Messages.Runtime.Audio
 
         public void Invoke(float[] data, int channels)
         {
+            if (data == null) throw new ArgumentNullException(nameof(data));
+
             Invoke();
 
             FilterReadInvoked?.Invoke(data, channels);

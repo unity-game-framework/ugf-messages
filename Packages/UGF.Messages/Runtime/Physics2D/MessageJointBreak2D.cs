@@ -10,6 +10,8 @@ namespace UGF.Messages.Runtime.Physics2D
 
         public void Invoke(Joint2D brokenJoint)
         {
+            if (brokenJoint == null) throw new ArgumentNullException(nameof(brokenJoint));
+
             Invoke();
 
             JointBreakInvoked?.Invoke(brokenJoint);

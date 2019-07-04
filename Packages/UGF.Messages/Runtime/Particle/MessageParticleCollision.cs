@@ -10,6 +10,8 @@ namespace UGF.Messages.Runtime.Particle
 
         public void Invoke(GameObject gameObject)
         {
+            if (gameObject == null) throw new ArgumentNullException(nameof(gameObject));
+
             Invoke();
 
             CollisionInvoked?.Invoke(gameObject);
