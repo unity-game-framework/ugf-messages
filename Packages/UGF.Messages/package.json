@@ -4,17 +4,17 @@
   "version": "1.0.0-preview",
   "unity": "2019.1",
   "apiCompatibility": ".NET Standard 2.0",
-  "description": "No description.",
+  "description": "Provides components with Unity standard messages.",
   "author": {
     "name": "Unity Game Framework",
     "url": "https://github.com/unity-game-framework"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/unity-game-framework/ugf-messages.git"
   },
-  "changelogUrl": "",
-  "licensesUrl": "",
+  "changelogUrl": "https://github.com/unity-game-framework/ugf-messages/blob/main/changelog.md",
+  "licensesUrl": "https://github.com/unity-game-framework/ugf-messages/blob/main/license",
   "publishConfig": {
     "registry": "https://unitygameframework.jfrog.io/artifactory/api/npm/default"
   },
