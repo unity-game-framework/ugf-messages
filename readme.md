@@ -4,8 +4,8 @@ UGF.Messages
 
 ## Info
 
-- **Version**: `1.0.0-preview`
-- **Unity**: `2019.1`
+- **Version**: `1.0.0-preview.1`
+- **Unity**: `2020.2`
 - **API Compatibility Level**: `.NET Standard 2.0`
 
 ### Dependencies
