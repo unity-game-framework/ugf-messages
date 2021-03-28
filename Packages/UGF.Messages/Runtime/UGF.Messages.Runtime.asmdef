@@ -19,6 +19,11 @@
             "name": "com.unity.modules.audio",
             "expression": "",
             "define": "UGF_HAS_MODULE_AUDIO"
+        },
+        {
+            "name": "com.unity.modules.particlesystem",
+            "expression": "",
+            "define": "UGF_HAS_MODULE_PARTICLESYSTEM"
         }
     ],
     "noEngineReferences": false
