@@ -2,6 +2,9 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Audio
 {
+#if UGF_HAS_MODULE_AUDIO
+    [RequireComponent(typeof(AudioSource))]
+#endif
     [AddComponentMenu("Unity Game Framework/Messages/Audio/Message Audio Filter Read", 2000)]
     public class MessageAudioFilterReadReceiver : MonoBehaviour
     {
