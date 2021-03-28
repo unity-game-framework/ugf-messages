@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Physics2D
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Physics2D/Message Trigger 2D Stay", 2000)]
     public class MessageTrigger2DStayReceiver : MonoBehaviour
     {
         [SerializeField] private MessageTrigger2D m_stay = new MessageTrigger2D();

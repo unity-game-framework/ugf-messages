@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Transform
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Transform/Message Transform All", 2000)]
     public class MessageTransformAllReceiver : MonoBehaviour
     {
         [SerializeField] private Message m_onBeforeParentChanged = new Message();

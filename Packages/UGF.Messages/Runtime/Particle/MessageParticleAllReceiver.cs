@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Particle
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Particle/Message Particle All", 2000)]
     public class MessageParticleAllReceiver : MonoBehaviour
     {
         [SerializeField] private MessageParticleCollision m_onCollision = new MessageParticleCollision();

@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Render
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Render/Message Render Object All", 2000)]
     public class MessageRenderObjectAllReceiver : MonoBehaviour
     {
         [SerializeField] private Message m_onWillRender = new Message();
