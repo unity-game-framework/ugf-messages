@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Render
 {
+    [RequireComponent(typeof(Camera))]
     [AddComponentMenu("Unity Game Framework/Messages/Render/Message Render Image", 2000)]
     public class MessageRenderImageReceiver : MonoBehaviour
     {

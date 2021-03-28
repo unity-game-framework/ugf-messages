@@ -2,7 +2,8 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Render
 {
-    [AddComponentMenu("Unity Game Framework/Messages/Render/Message Visible All", 2000)]
+    [RequireComponent(typeof(Renderer))]
+    [AddComponentMenu("Unity Game Framework/Messages/Render/Message Became Visible All", 2000)]
     public class MessageBecameVisibleAllReceiver : MonoBehaviour
     {
         [SerializeField] private Message m_onBecameVisible = new Message();
