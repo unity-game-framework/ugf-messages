@@ -9,6 +9,22 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.animation",
+            "expression": "",
+            "define": "UGF_HAS_MODULE_ANIMATION"
+        },
+        {
+            "name": "com.unity.modules.audio",
+            "expression": "",
+            "define": "UGF_HAS_MODULE_AUDIO"
+        },
+        {
+            "name": "com.unity.modules.particlesystem",
+            "expression": "",
+            "define": "UGF_HAS_MODULE_PARTICLESYSTEM"
+        }
+    ],
     "noEngineReferences": false
 }
