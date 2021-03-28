@@ -1,0 +1,24 @@
+{
+    "name": "UGF.Messages.Runtime.Physics",
+    "rootNamespace": "UGF.Messages.Runtime",
+    "references": [
+        "GUID:4b2e18ee0830ee54ba83b65cb3d075d5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HAS_MODULE"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.modules.physics",
+            "expression": "",
+            "define": "HAS_MODULE"
+        }
+    ],
+    "noEngineReferences": false
+}
