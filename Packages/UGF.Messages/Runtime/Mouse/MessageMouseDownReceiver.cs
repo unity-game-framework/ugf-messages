@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Mouse
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Mouse/Message Mouse Down", 2000)]
     public class MessageMouseDownReceiver : MonoBehaviour
     {
         [SerializeField] private Message m_onDown = new Message();

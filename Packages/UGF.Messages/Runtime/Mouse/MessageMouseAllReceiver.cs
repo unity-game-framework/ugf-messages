@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Mouse
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Mouse/Message Mouse All", 2000)]
     public class MessageMouseAllReceiver : MonoBehaviour
     {
         [SerializeField] private Message m_onEnter = new Message();

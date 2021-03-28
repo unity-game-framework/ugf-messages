@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Mouse
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Mouse/Message Mouse Exit", 2000)]
     public class MessageMouseExitReceiver : MonoBehaviour
     {
         [SerializeField] private Message m_onExit = new Message();

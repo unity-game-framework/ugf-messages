@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Render
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Render/Message Pre-Cull", 2000)]
     public class MessagePreCullReceiver : MonoBehaviour
     {
         [SerializeField] private Message m_onPreCull = new Message();

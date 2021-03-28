@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Physics2D
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Physics2D/Message Trigger 2D All", 2000)]
     public class MessageTrigger2DAllReceiver : MonoBehaviour
     {
         [SerializeField] private MessageTrigger2D m_onEnter = new MessageTrigger2D();

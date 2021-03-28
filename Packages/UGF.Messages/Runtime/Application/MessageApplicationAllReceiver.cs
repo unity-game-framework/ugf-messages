@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Application
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Application/Message Application All", 2000)]
     public class MessageApplicationAllReceiver : MonoBehaviour
     {
         [SerializeField] private MessageApplicationState m_onFocus = new MessageApplicationState();

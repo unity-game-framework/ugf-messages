@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Initialization
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Initialization/Message Initialize All", 2000)]
     public class MessageInitializeAllReceiver : MonoBehaviour
     {
         [SerializeField] private Message m_onAwake = new Message();

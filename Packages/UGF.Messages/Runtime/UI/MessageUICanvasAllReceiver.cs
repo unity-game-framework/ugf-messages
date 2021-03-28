@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.UI
 {
+    [AddComponentMenu("Unity Game Framework/Messages/UI/Message UI Canvas All", 2000)]
     public class MessageUICanvasAllReceiver : MonoBehaviour
     {
         [SerializeField] private Message m_onGroupChanged = new Message();

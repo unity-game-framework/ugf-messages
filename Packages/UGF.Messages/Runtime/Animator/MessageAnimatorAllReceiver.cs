@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace UGF.Messages.Runtime.Animator
 {
+    [AddComponentMenu("Unity Game Framework/Messages/Animator/Message Animator All", 2000)]
     public class MessageAnimatorAllReceiver : MonoBehaviour
     {
         [SerializeField] private MessageAnimatorIK m_onIK = new MessageAnimatorIK();
