@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.unity.ide.rider": "3.0.5",
+    "com.unity.ide.rider": "3.0.7",
     "com.unity.test-framework": "1.1.24",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.audio": "1.0.0",
@@ -10,8 +10,8 @@
   },
   "scopedRegistries": [
     {
-      "name": "ugf",
-      "url": "https://api.bintray.com/npm/unity-game-framework/dev",
+      "name": "Unity Game Framework",
+      "url": "https://unitygameframework.jfrog.io/artifactory/api/npm/default",
       "scopes": [
         "com.ugf"
       ]
